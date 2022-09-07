@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        input[type=submit], input[type=reset] {
+          border: none;
+          text-decoration: none;
+          margin: 4px 2px;
+          cursor: pointer;
+          box-sizing:border-box;
+        }
+        .venkat{
+          position:relative;
+        }
+
+        .center{
+          position: absolute;
+          top: 50%;
+          width: 100%;
+          text-align: center;
+        }
+        </style>
+</head>
+<body>
+<div class="venkat">
+    <form class="center">
+        <label for="uame">User name:</label>
+        <input type="text" id="uname" name="uname" placeholder="User Name"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="passwd" name="passwd" placeholder="Password"><br><br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+      </form> 
+</div>
+</body>
+</html>

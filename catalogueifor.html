@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .column {
+            float: left;
+            width: 25%;
+            padding: 10px;
+            height: 300px;
+            color:red;
+        }
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        li{
+            color:black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="row">
+        <div class="column">
+          <h4>Book Cover</h4><br>
+          <ol>
+            <li><img src="book1.jpg" height="100px" width="100px"></li><br><br>
+            <li><img src="book5.jpg" height="100px" width="100px"></li><br><br>
+            <li><img src="book3.jpg" height="100px" width="100px"></li><br><br>
+            <li><img src="book4.jpg" height="100px" width="100px"></li><br><br>
+            <li><img src="book6.jpg" height="100px" width="100px"></li><br><br>
+          </ol>
+
+        </div>
+        <div class="column">
+          <h4>Book Details</h4><br><br><br><br>
+          <li><strong>Book:</strong>To Kill a Mockingbird</li><br>
+          <li><strong>Author:</strong>F. Scott Fitzgerald</li><br><br><br><br>
+          <li><strong>Book:</strong>To Kill a Mockingbird</li><br>
+          <li><strong>Author:</strong>F. Scott Fitzgerald</li><br><br><br><br><br>
+          <li><strong>Book:</strong>To Kill a Mockingbird</li><br>
+          <li><strong>Author:</strong>F. Scott Fitzgerald</li><br><br><br><br><br>
+          <li><strong>Book:</strong>To Kill a Mockingbird</li><br>
+          <li><strong>Author:</strong>F. Scott Fitzgerald</li><br><br><br><br><br>
+          <li><strong>Book:</strong>To Kill a Mockingbird</li><br>
+          <li><strong>Author:</strong>F. Scott Fitzgerald</li><br><br><br><br><br>
+          
+          
+        </div>
+        <div class="column">
+            <h4>Book Cost</h4><br><br><br><br>
+            <li>$10</li><br><br><br><br><br><br><br>
+            <li>$10</li><br><br><br><br><br><br><br>
+            <li>$10</li><br><br><br><br><br><br><br>
+            <li>$10</li><br><br><br><br><br><br><br>
+            <li>$10</li><br><br><br><br><br><br><br>
+          </div>
+          <div class="column">
+            <h4>Cart</h4><br><br><br><br>
+            <button onclick="">Add To Cart</button><br><br><br><br><br><br><br>
+            <button onclick="">Add To Cart</button><br><br><br><br><br><br><br><br>
+            <button onclick="">Add To Cart</button><br><br><br><br><br><br><br><br>
+            <button onclick="">Add To Cart</button><br><br><br><br><br><br><br><br>
+            <button onclick="">Add To Cart</button><br><br><br><br><br><br><br><br>
+          </div>
+    </div>
+</body>
+</html>
